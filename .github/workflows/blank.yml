@@ -38,8 +38,9 @@ jobs:
         run: |
           echo "user: ${{ secrets.USER }}"
           echo "password: ${{ secrets.PASSWORD }}"
+
                 
       # Step4 Variables abiertas 
       - name: variables abiertas
         run: |
-          echo "Version de mi proyecto: $VERSION_PROYECTO"
+          echo "Imprmiendo Version de mi proyecto: $VERSION_PROYECTO"
