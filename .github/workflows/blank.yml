@@ -43,4 +43,4 @@ jobs:
       # Step4 Variables abiertas 
       - name: variables abiertas
         run: |
-          echo "Imprmiendo Version de mi proyecto: $VERSION_PROYECTO"
+          echo "Imprmiendo la ultima Version de mi proyecto: $VERSION_PROYECTO"
